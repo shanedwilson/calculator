@@ -32,8 +32,11 @@ const calculate = (num1, num2, mathType) => {
 const setDisplay = (someNumber) => {
   calc.display = someNumber;
   printToDom(calc.display, "result");
-
 };
+
+const setMathType = (newMathType) => {
+  calc.mathType = newMathType;
+}
 
 const initDisplay = () => {
   printToDom(0, "result");
@@ -49,4 +52,4 @@ const addNumber = (num) => {
   }
 };
 
-export { calculate, addNumber, initDisplay};
+export { calculate, addNumber, initDisplay, setMathType};
