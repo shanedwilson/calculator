@@ -1,19 +1,19 @@
 body {
-    background-color: burlywood;
+  background-color: burlywood;
 }
 
 #page-title {
-    text-align: center;
-    margin: 25px;
+  text-align: center;
+  margin: 25px;
 }
 
 #result {
-    background-color: white;
-    text-align: right;
-    margin-bottom: 10px;
-    border-radius: 5px;
+  background-color: white;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .calculator {
-    margin-top: 50px;
+  margin-top: 50px;
 }
