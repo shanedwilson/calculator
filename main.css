@@ -1,8 +1,13 @@
 body {
     background-color: burlywood;
-    text-align: center;
 }
 
 #result {
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.calculator {
     margin-top: 100px;
 }
