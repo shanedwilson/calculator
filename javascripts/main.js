@@ -1,6 +1,5 @@
-import {initDisplay} from './components/calculator.js';
-import buttonEvents from './helpers/buttonEvents.js';
-
+import { initDisplay } from "./components/calculator.js";
+import buttonEvents from "./helpers/buttonEvents.js";
 
 const initializeApp = () => {
   buttonEvents();
@@ -8,4 +7,3 @@ const initializeApp = () => {
 };
 
 initializeApp();
-
