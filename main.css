@@ -2,12 +2,18 @@ body {
     background-color: burlywood;
 }
 
+#page-title {
+    text-align: center;
+    margin: 25px;
+}
+
 #result {
     background-color: white;
     text-align: right;
-    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .calculator {
-    margin-top: 100px;
+    margin-top: 50px;
 }
