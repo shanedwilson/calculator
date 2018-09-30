@@ -15,7 +15,7 @@ const divideButton = document.getElementById("divideButton");
 const addButton = document.getElementById("addButton");
 const minusButton = document.getElementById("minusButton");
 const equalsButton = document.getElementById("equalsButton");
-const clearButton =document.getElementById("clearButton");
+const clearButton = document.getElementById("clearButton");
 
 const addNumberCaller = e => {
   addNumber(e.target.innerHTML);
@@ -86,14 +86,14 @@ const equalsButtonEvent = () => {
 const divideButtonEvent = () => {
   divideButton.addEventListener("click", () => {
     setMathType("divide");
-  })
+  });
 };
 
 const clearPageEvent = () => {
-    clearButton.addEventListener("click", () => {
-        window.location.reload();
-    })
-}; 
+  clearButton.addEventListener("click", () => {
+    window.location.reload();
+  });
+};
 
 const attachEvents = () => {
   sevenButtonEvent();

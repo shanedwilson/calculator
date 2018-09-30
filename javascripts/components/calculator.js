@@ -1,5 +1,5 @@
 import { printToDom } from "../helpers/util.js";
-import { multiply, divide, add, subtract} from "../helpers/maths.js";
+import { multiply, divide, add, subtract } from "../helpers/maths.js";
 
 const calc = {
   firstNumber: "",
@@ -29,12 +29,12 @@ const calculate = () => {
   setDisplay(answer);
 };
 
-const setDisplay = (someNumber) => {
+const setDisplay = someNumber => {
   calc.display = someNumber;
   printToDom(calc.display, "result");
 };
 
-const setMathType = (newMathType) => {
+const setMathType = newMathType => {
   calc.mathType = newMathType;
 };
 
