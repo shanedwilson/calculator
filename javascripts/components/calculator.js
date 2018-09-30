@@ -1,5 +1,5 @@
 import { printToDom } from "../helpers/util.js";
-import { multiply, divide, add, subtract } from "../helpers/maths.js";
+import { multiply, divide, add, subtract} from "../helpers/maths.js";
 
 const calc = {
   firstNumber: "",
